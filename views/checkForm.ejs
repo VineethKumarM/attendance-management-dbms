@@ -1,0 +1,39 @@
+<%- include('./templates/head') %>
+
+<%- include('./templates/navbar') %> 
+
+    <h1>Fill the Classs details </h1>
+    <h3>The students are fetched once the class details are submitted</h3>
+
+    <br><br><br>
+	<form action="/attend" method="post">
+		<Label for="course">Course: </Label>
+		<Select name="course" id="course">
+			<option value="Btech">Btech</option>
+			<option value="Mtech">Mtech</option>
+			<option value="Phd">Phd</option> 
+			<option value="DualDeg">Dual Degree</option>
+		</Select>
+		<br>
+		<Label for="year">Year</Label>
+		<input type="number" name="year" id="year" placeholder="2018-2022">
+<br>
+		<Label for="branch">Branch: </Label>
+		<Select name="branch" id="branch">
+			<option value="IT">IT</option>
+			<option value="It-Bin">It-Bin</option>
+			<option value="ECE">ECE</option>
+			<!-- <option value="DualDeg">Dual Degree</option> -->
+		</Select>
+		<br>
+		<Button>Get List</Button>
+	</form>
+
+	<!-- <ul>
+		<li>
+
+		</li>
+	</ul> -->
+
+</body>
+</html>

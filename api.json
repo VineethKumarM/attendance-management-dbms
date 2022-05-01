@@ -1,0 +1,30 @@
+{
+    "container": {
+        "activity": "Match your storage containers with their lids",
+        "type": "busywork",
+        "participants": 1,
+        "price": 0,
+        "link": "",
+        "key": "4940907",
+        "accessibility": 1
+    },
+
+    "music" : {
+        "activity": "Go to a music festival with some friends",
+        "type": "social",
+        "participants": 4,
+        "price": 0.4,
+        "link": "",
+        "key": "6482790",
+        "accessibility": 0.2
+    },
+    "research" : {
+        "activity": "Research a topic you're interested in",
+        "type": "education",
+        "participants": 1,
+        "price": 0,
+        "link": "",
+        "key": "3561421",
+        "accessibility": 0.9
+    }
+}
